@@ -219,7 +219,7 @@ if [[ $serverc == 7 ]];then
 		fi
 	fi
 	#Get IP
-	ip=`curl -m 10 -s http://members.3322.org/dyndns/getip`
+	ip=`curl -m 10 -s http://bot.whatismyipaddress.com/`
 	clear
 	chmod -R 777 /usr/local/SSR-Bash-Python
 	cd /usr/local/SSR-Bash-Python/www
