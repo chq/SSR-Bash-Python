@@ -167,7 +167,7 @@ fi
 #Show
 echo "输入数字选择功能："
 echo ""
-echo "1.检查更新"
+# echo "1.检查更新"
 echo "2.切换到普通版"
 echo "3.程序自检"
 echo "4.卸载程序"
@@ -183,9 +183,9 @@ while :; do echo
 	fi
 done
 
-if [[ $choice == 1 ]];then
-        updateme
-fi
+# if [[ $choice == 1 ]];then
+#         updateme
+# fi
 if [[ $choice == 2 ]];then
 	echo "切换到普通版之后你将无法使用一些功能"
 	sumdc
